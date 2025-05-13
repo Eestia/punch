@@ -1,0 +1,20 @@
+.img-container {
+  text-align: center;
+  margin: 20px;
+}
+
+img {
+  width: 400px;
+  transition: transform 0.2s;
+}
+
+.bounce {
+  animation: bounce 0.3s ease;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-30px); } /* avant c'était -20px */
+  60%  { transform: translateY(0); }
+  100% { transform: translateY(-8px); }  /* petit rebond final */
+}

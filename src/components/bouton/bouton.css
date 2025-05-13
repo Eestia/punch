@@ -1,0 +1,22 @@
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-family: monospace;
+  color: white;
+  background-color: rgb(46, 110, 182);
+  border: 3px solid white;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease; 
+}
+button:hover {
+  box-shadow: 0 0 10px 5px white;
+}
+button:active{
+    background-color: rgb(147, 197, 247);
+}
