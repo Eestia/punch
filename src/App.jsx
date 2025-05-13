@@ -8,7 +8,7 @@ export default function App() {
   const [hp, setHp] = useState(100);
 
   const handlePunch = () => {
-  const sound = new Audio('/duck.mp3');
+  const sound = new Audio('/punch/duck.mp3');
   sound.play();
   setHp(prev => Math.max(prev - 10, 0));
 };
@@ -21,7 +21,7 @@ export default function App() {
     <>
 
       <video autoPlay loop muted className="background-video">
-        <source src="/genshin.mp4" type="video/mp4" />
+        <source src="/punch/genshin.mp4" type="video/mp4" />
       </video>
 
       <section>
